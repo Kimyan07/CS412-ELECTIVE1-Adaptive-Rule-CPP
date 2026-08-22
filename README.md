@@ -1,7 +1,7 @@
 # ELECTIVE 1 - Simple Adaptive Rule in C++
 
 **Name:** ABULKHAIR, JOHANIE A.  
-**Section:** CCS4D  
+**Section:** CS4D  
 **Date:** AUGUST 24, 2026  
 
 ## Project Title
