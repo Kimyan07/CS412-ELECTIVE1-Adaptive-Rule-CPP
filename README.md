@@ -18,23 +18,25 @@ This project is a simple C++ console program for an e-learning application. It u
 
 The program asks for information such as past exam searches, quiz attempts, quiz score, and the topic being studied. It then checks the conditions of the two rules and displays a recommendation based on the user answers.
 
-## Adaptive Rules
+### Adaptive Rules
 
 ### Rule 1
 
-**If** the student searches for past exams 3 or more times  
-**Then** the system prioritizes exam-preparation resources and past-exam materials.
+**If** the user searches for past exams 3 or more times  
+**Then** the system recommends past exams and other exam-preparation materials.
 
-**Why it improves personalization:**  
-Repeated searches for past exams can indicate that the student is preparing for an upcoming test. Instead of showing only general learning materials, the system adapts by prioritizing resources that match the student's likely goal of test preparation. This is similar to the module's example of inferring a student's goal as "test preparation" when they repeatedly search for past exams.
+**Why it improves personalization:**
+
+If the student or user keeps searching for past exams, they may be preparing for an upcoming test. Because of this, the program gives them exam related materials instead of only giving general study materials.
 
 ### Rule 2
 
-**If** the student attempts a quiz on the same topic at least 2 times and the latest score is below 70%  
-**Then** the system recommends reviewing that topic before taking another practice quiz.
+**If** the user takes a quiz on the same topic at least 2 times and gets a score below 70%  
+**Then** the system recommends reviewing the topic before taking another quiz.
 
-**Why it improves personalization:**  
-Repeated attempts combined with a low score can indicate that the student needs additional support with the topic. The system responds by recommending review material rather than simply giving the same quiz again. This creates a more helpful learning path based on the student's observed behavior and performance.
+**Why it improves personalization:**
+
+If the student or user takes the same quiz several times but still gets a low score, they may need more time to study the topic. The program then recommends reviewing the topic first before trying the quiz again.
 
 ## Required Logic Format
 
