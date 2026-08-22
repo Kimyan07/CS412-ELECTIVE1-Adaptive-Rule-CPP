@@ -23,7 +23,7 @@ The program asks for information such as past exam searches, quiz attempts, quiz
 ### Rule 1
 
 **If** the user searches for past exams 3 or more times  
-**Then** the system recommends past exams and other exam-preparation materials.
+**Then** the system recommends past exams and other exam preparation materials.
 
 **Why it improves personalization:**
 
