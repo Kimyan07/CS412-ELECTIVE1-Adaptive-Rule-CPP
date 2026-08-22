@@ -98,7 +98,7 @@ The system should trigger both adaptive rules.
 
 The program should recommend:
 
-1. Exam-preparation resources and past-exam materials.
+1. Exam preparation resources and past-exam materials.
 2. Reviewing the selected topic before taking another practice quiz.
 
 ## Project Structure
