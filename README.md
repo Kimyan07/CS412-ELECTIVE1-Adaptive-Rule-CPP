@@ -16,7 +16,7 @@ E-learning platform
 
 This project is a simple C++ console program for an e-learning application. It uses two if-then rules to check a student's study behavior and give different recommendations.
 
-The program asks for information such as past exam searches, quiz attempts, quiz score, and the topic being studied. It then checks the conditions of the two rules and displays a recommendation based on the student's answers.
+The program asks for information such as past exam searches, quiz attempts, quiz score, and the topic being studied. It then checks the conditions of the two rules and displays a recommendation based on the user answers.
 
 ## Adaptive Rules
 
