@@ -63,7 +63,7 @@ g++ main.cpp -o adaptive_rule
 Run it on Windows:
 
 ```bash
-adaptive_rule.exe
+.\adaptive_rule.exe
 ```
 
 Run it on macOS/Linux:
