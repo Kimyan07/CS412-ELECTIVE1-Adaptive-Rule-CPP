@@ -40,7 +40,7 @@ If the student or user takes the same quiz several times but still gets a low sc
 
 ## Required Logic Format
 
-**Rule 1:** If [student searches for past exams 3 or more times] → Then [prioritize exam-preparation resources and past-exam materials].
+**Rule 1:** If [student searches for past exams 3 or more times] → Then [prioritize exam preparation resources and past-exam materials].
 
 **Rule 2:** If [student attempts a quiz at least 2 times and scores below 70%] → Then [recommend reviewing the topic before another practice quiz].
 
