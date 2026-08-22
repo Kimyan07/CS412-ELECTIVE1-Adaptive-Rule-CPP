@@ -14,9 +14,9 @@ E-learning platform
 
 ## Description
 
-This project is a simple console-based adaptive system written in **C++**. It demonstrates how an e-learning application can observe student behavior and use if-then rules to personalize recommendations.
+This project is a simple C++ console program for an e-learning application. It uses two if-then rules to check a student's study behavior and give different recommendations.
 
-The project follows the user-modeling concepts discussed in CS412 Module 1, particularly behavior-based and preference/goal-based modeling. The module explains that systems can collect observable actions such as clicks, navigation, quiz attempts, and other interaction data, then use those observations to adapt the user's experience.
+The program asks for information such as past exam searches, quiz attempts, quiz score, and the topic being studied. It then checks the conditions of the two rules and displays a recommendation based on the student's answers.
 
 ## Adaptive Rules
 
@@ -110,20 +110,14 @@ ELECTIVE1_AdaptiveRule_CPP/
 
 ## GitHub Submission
 
-Create a GitHub repository and upload the complete project folder.
-
-Suggested repository name:
-
-`CS412-ELECTIVE1-Adaptive-Rule-CPP`
-
-After uploading, make sure the repository is accessible to your instructor. Submit the GitHub repository link through Google Classroom.
+I uploaded the GitHub repository link in Google Classroom po.
 
 ## Academic Basis
 
-The rules are designed using concepts from **CS412 Module 1: Introducing User Modelling**, including behavior-based user models, observable user actions, goal/intent inference, and adaptation.
+This project is based on the user modeling topics we discussed in our CS412 Module 1 lecture. The rules use simple student actions, like searching for past exams and taking quizzes, to give study recommendations.
 
-The module explains that behavior-based models can use actions such as clicks, navigation, and quiz-related activity to infer user characteristics or needs. It also gives the example that repeated searches for "past exams" can indicate a student's goal of test preparation.
+For example, if a student keeps searching for past exams, it can mean that they are preparing for a test. I used this idea for Rule 1.
 
 ## Notes
 
-This project intentionally uses a console interface because the assignment states that a UI is optional. The focus is on demonstrating accurate, relevant, and understandable adaptive rules.
+I used a console program instead of making a graphical user interface. Since a UI was not required, I focused on making the two adaptive rules work properly based on my understanding of the topic and the other sources I found online.
