@@ -1,0 +1,14 @@
+# Compiled C++ executable
+adaptive_rule
+adaptive_rule.exe
+
+# Object files
+*.o
+*.obj
+
+# VS Code settings
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
